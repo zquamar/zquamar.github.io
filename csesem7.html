@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>CGP CALCY</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="template.css">
+<script src="csesem7.js"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+<!-- Header -->
+<div class="header">
+  <h1>CGP CALCULATOR</h1>
+</div>
+
+<!-- Navigation Bar -->
+<div class="topnav" id="myTopnav">
+  <a href="index.html">Home</a>
+  <div class="dropdown">
+    <button class="dropbtn">CSE
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a href="csesem1.html">SEM-1</a>
+      <a href="csesem2.html">SEM-2</a>
+      <a href="csesem3.html">SEM-3</a>
+      <a href="csesem4.html">SEM-4</a>
+      <a href="csesem5.html">SEM-5</a>
+      <a href="csesem6.html">SEM-6</a>
+      <a href="csesem7.html">SEM-7</a>
+      <a href="csesem8.html">SEM-8</a>
+    </div>
+  </div>
+  <div class="dropdown">
+    <button class="dropbtn">IT
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a href="#">SEM-7</a>
+      <a href="#">SEM-8</a>
+    </div>
+  </div>
+  <div class="dropdown">
+    <button class="dropbtn">ECE
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a href="#">SEM-7</a>
+      <a href="#">SEM-8</a>
+    </div>
+  </div>
+  <div class="dropdown">
+    <button class="dropbtn">EEE
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a href="#">SEM-7</a>
+      <a href="#">SEM-8</a>
+    </div>
+  </div>
+  <div class="dropdown">
+    <button class="dropbtn">CIVIL
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a href="#">SEM-7</a>
+      <a href="#">SEM-8</a>
+    </div>
+  </div>
+  <div class="dropdown">
+    <button class="dropbtn">MECH
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a href="#">SEM-7</a>
+      <a href="#">SEM-8</a>
+    </div>
+  </div>
+  <a href="javascript:void(0);" style="font-size:20px;" class="icon" onclick="myFunction()">&#9776;</a>
+</div>
+<script>
+function myFunction() {
+  var x = document.getElementById("myTopnav");
+  if (x.className === "topnav") {
+    x.className += " responsive";
+  } else {
+    x.className = "topnav";
+  }
+}
+</script>
+<!-- The flexible grid (content) -->
+    <div class="main">
+      <h2>Computer Science And Engineering</h2>
+      <h3>YEAR - IV<h3>
+      <h3>SEMESTER - I</h3>
+      <form id="form1" action=""  method="">
+      <table id="mytable" width="100%">
+      <tr>
+        <th scope="col">#</th>
+        <th scope="col">Subjects</th>
+        <th scope="col">Grades</th>
+      </tr>
+      <tr>
+                <td>01</td>
+                <td>Cryptography & Network Security</td>
+                <td id="op"><select name="sub1" id="">
+                <option value="10">O</option>
+                <option value="9">A+</option>
+                <option value="8">A</option>
+                <option value="7">B+</option>
+                <option value="6">B</option>
+                <option value="5">C</option>
+                <option value="0">F</option>
+              </select></td>
+            </tr>
+            <tr>
+              <td>02</td>
+              <td>Data Mining</td>
+              <td id="op"><select name="sub2" >
+                <option value="10">O</option>
+                <option value="9">A+</option>
+                <option value="8">A</option>
+                <option value="7">B+</option>
+                <option value="6">B</option>
+                <option value="5">C</option>
+                <option value="0">F</option>
+              </select></td>
+            </tr>
+            <tr>
+              <td>03</td>
+              <td>Cloud Computing</td>
+              <td id="op"><select name="sub3" id="">
+                <option value="10">O</option>
+                <option value="9">A+</option>
+                <option value="8">A</option>
+                <option value="7">B+</option>
+                <option value="6">B</option>
+                <option value="5">C</option>
+                <option value="0">F</option>
+              </select></td>
+            </tr>
+            <tr>
+              <td>04</td>
+              <td>Principles of Entrepreneurship</td>
+              <td id="op"><select name="sub4" id="">
+                <option value="10">O</option>
+                <option value="9">A+</option>
+                <option value="8">A</option>
+                <option value="7">B+</option>
+                <option value="6">B</option>
+                <option value="5">C</option>
+                <option value="0">F</option>
+              </select></td>
+            </tr>
+            <tr>
+              <td>05</td>
+              <td>Open Elective-II</td>
+              <td id="op"><select name="sub5" id="">
+                <option value="10">O</option>
+                <option value="9">A+</option>
+                <option value="8">A</option>
+                <option value="7">B+</option>
+                <option value="6">B</option>
+                <option value="5">C</option>
+                <option value="0">F</option>
+              </select></td>
+            </tr>
+            <tr>
+              <td>06</td>
+              <td>Cryptography & Network Security Lab</td>
+              <td id="op"><select name="sub6" id="">
+                <option value="10">O</option>
+                <option value="9">A+</option>
+                <option value="8">A</option>
+                <option value="7">B+</option>
+                <option value="6">B</option>
+                <option value="5">C</option>
+                <option value="0">F</option>
+              </select></td>
+            </tr>
+            <tr>
+              <td>07</td>
+              <td>Mini Project/Summer Internship</td>
+              <td id="op"><select name="sub7" id="">
+                <option value="10">O</option>
+                <option value="9">A+</option>
+                <option value="8">A</option>
+                <option value="7">B+</option>
+                <option value="6">B</option>
+                <option value="5">C</option>
+                <option value="0">F</option>
+              </select></td>
+            </tr>
+            <tr>
+              <td>08</td>
+              <td>Seminar</td>
+              <td id="op"><select name="sub8" id="">
+                <option value="10">O</option>
+                <option value="9">A+</option>
+                <option value="8">A</option>
+                <option value="7">B+</option>
+                <option value="6">B</option>
+                <option value="5">C</option>
+                <option value="0">F</option>
+              </select></td>
+            </tr>
+            <tr>
+              <td>09</td>
+              <td>Project Stage-I</td>
+              <td id="op"><select name="sub9" id="">
+                  <option value="10">O</option>
+                  <option value="9">A+</option>
+                  <option value="8">A</option>
+                  <option value="7">B+</option>
+                  <option value="6">B</option>
+                  <option value="5">C</option>
+                  <option value="0">F</option>
+                </select></td>
+              </tr>
+              <tr>
+              <td></td>
+              <td>CGP</td>
+              <td></td>
+            </tr>
+    </table>
+  </form>
+    <div class="btn">
+         <input class="butt" type="button" onclick="document.location='csesem7.html'" name="Reset" value="RESET">
+         <input class="butt" type="button" onclick="return myfunction()" value="CALCULATE">
+         </div>
+    </div>
+
+<!-- Footer -->
+<div class="footer">
+   <a href="https://github.com/zquamar" target="blank">www.github.com</a>
+</div>
+
+</body>
+</html>
